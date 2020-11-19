@@ -1,1 +1,0 @@
-# dinosaur friends child theme
