@@ -25,8 +25,8 @@ if ( !function_exists('customisetheme_setup') ):
         define( 'HEADER_IMAGE', '%s/header/default.jpg' );
 
         //Define the width and height of our header image
-        define( 'HEADER_IMAGE_WIDTH', apply_filters( 'customisetheme_header_image_width', 150 ) );
-        define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'customisetheme_header_image_height', 150 ) );
+        define( 'HEADER_IMAGE_WIDTH', apply_filters( 'customisetheme_header_image_width', 125 ) );
+        define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'customisetheme_header_image_height', 125 ) );
 
         //Turn off text inside the header image
         define( 'NO_HEADER_TEXT', true );
