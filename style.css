@@ -34,7 +34,10 @@ body.home {
 }
 
 .nav .nav-link {
+  font-size: 1.4em;
   color: #474563;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .nav .nav-link:hover {
