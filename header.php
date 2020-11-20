@@ -138,26 +138,28 @@
 		    </a>
 
 			</div>
-			<nav id="main_navbar" class="navbar navbar-expand-md navbar-inverse">
+			<nav id="main_navbar" class="navbar navbar-expand-md">
     <!-- you can remove this container wrapper if you want things full width -->
-		<!-- <a class="navbar-brand d-none" href="#"><?php esc_html_e( bloginfo( 'name' ), 'themeslug' ); ?></a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'best-reloaded' ); ?>">
-            <span class="navbar-toggler-icon"></span><span class="sr-only"><?php esc_html_e( 'Toggle Navigation', 'themeslug' ); ?></span>
-        </button>
-        <div class="collapse navbar-collapse" id="headerNav" role="navigation" aria-label="Main Menu">
-            <span class="sr-only"><?php esc_html_e( 'Main Menu', 'themeslug' ); ?></span>
-            <?php
-            wp_nav_menu( array(
-                'theme_location' => 'primary',
-                'depth' => 2,
-                'container' => false,
-                'menu_class' => 'nav navbar-nav',
-                'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
-                'walker' => new WP_Bootstrap_Navwalker(),
-            ) );
-        ?>
-        </div>
-		</nav>	
+				<a class="navbar-brand d-none" href="#"><?php esc_html_e( bloginfo( 'name' ), 'themeslug' ); ?></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'best-reloaded' ); ?>">
+					<!-- <span class="hamburger navbar-toggler-icon"></span> -->
+					<i class="fas fa-bars"></i>
+					<span class="sr-only"><?php esc_html_e( 'Toggle Navigation', 'themeslug' ); ?></span>
+				</button>
+				<div class="collapse navbar-collapse" id="headerNav" role="navigation" aria-label="Main Menu">
+					<span class="sr-only"><?php esc_html_e( 'Main Menu', 'themeslug' ); ?></span>
+					<?php
+						wp_nav_menu( array(
+							'theme_location' => 'primary',
+							'depth' => 2,
+							'container' => false,
+							'menu_class' => 'nav navbar-nav',
+							'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+							'walker' => new WP_Bootstrap_Navwalker(),
+						) );
+					?>
+				</div>
+			</nav>	
 
 		</header>
 		<div class="wrapper container-fluid">
