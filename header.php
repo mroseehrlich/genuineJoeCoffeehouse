@@ -133,12 +133,32 @@
 	<div class="wrapper container-fluid">
 
 		<header id="header" role="banner">
-		    <a class="header-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" >
+		    <!-- <a class="header-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" >
 				<img id="header-logo__img" src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="Genuine Joe logo" />
-		    </a>
-			<nav id="nav" class="navbar navbar-expand-lg" role="navigation">
-				<?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
-				
+		    </a> -->
+
+			<nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
+				<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+					   <img id="header-logo__img" src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="Genuine Joe logo" />
+					</a>
+					<?php
+					wp_nav_menu( array(
+						'theme_location'    => 'primary',
+						'depth'             => 2,
+						'container'         => 'div',
+						'container_class'   => 'collapse navbar-collapse',
+						'container_id'      => 'bs-example-navbar-collapse-1',
+						'menu_class'        => 'nav navbar-nav',
+						'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+						'walker'            => new WP_Bootstrap_Navwalker(),
+					) );
+					?>
+				</div>
 			</nav>
 		</header>
 
