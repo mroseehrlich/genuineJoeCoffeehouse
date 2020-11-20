@@ -133,11 +133,12 @@
 	<div class="wrapper container-fluid">
 
 		<header id="header" role="banner">
-			<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<div class="description"><?php bloginfo( 'description' ); ?></div>
+		    <a class="header-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" >
+				<img id="header-logo__img" src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="Genuine Joe logo" />
+		    </a>
+			<nav id="nav" class="navbar navbar-expand-lg" role="navigation">
+				<?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
+				
+			</nav>
 		</header>
-
-		<nav id="nav" role="navigation">
-			<?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
-		</nav>
 
