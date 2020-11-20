@@ -130,35 +130,37 @@
 <body <?php body_class(); ?>>
 
 	<!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
-	<div class="wrapper container-fluid">
 
 		<header id="header" role="banner">
-		    <!-- <a class="header-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" >
-				<img id="header-logo__img" src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="Genuine Joe logo" />
-		    </a> -->
+			<div class="header-brand">
+			<a class="header-brand__link" href="<?php echo esc_url( home_url( '/' ) ); ?>" >
+				<img id="header-brand__img" src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="Genuine Joe logo" />
+		    </a>
 
-			<nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
-				<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<a class="navbar-brand" href="#">
-					   <img id="header-logo__img" src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="Genuine Joe logo" />
-					</a>
-					<?php
-					wp_nav_menu( array(
-						'theme_location'    => 'primary',
-						'depth'             => 2,
-						'container'         => 'div',
-						'container_class'   => 'collapse navbar-collapse',
-						'container_id'      => 'bs-example-navbar-collapse-1',
-						'menu_class'        => 'nav navbar-nav',
-						'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-						'walker'            => new WP_Bootstrap_Navwalker(),
-					) );
-					?>
-				</div>
-			</nav>
+			</div>
+			<div id="main_navbar" class="navbar navbar-expand-md navbar-light bg-light">
+    <!-- you can remove this container wrapper if you want things full width -->
+    <div class="container">
+        <a class="navbar-brand d-none" href="#"><?php esc_html_e( bloginfo( 'name' ), 'themeslug' ); ?></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'best-reloaded' ); ?>">
+            <span class="navbar-toggler-icon"></span><span class="sr-only"><?php esc_html_e( 'Toggle Navigation', 'themeslug' ); ?></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="headerNav" role="navigation" aria-label="Main Menu">
+            <span class="sr-only"><?php esc_html_e( 'Main Menu', 'themeslug' ); ?></span>
+            <?php
+            wp_nav_menu( array(
+                'theme_location' => 'primary',
+                'depth' => 2,
+                'container' => false,
+                'menu_class' => 'nav',
+                'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+                'walker' => new WP_Bootstrap_Navwalker(),
+            ) );
+        ?>
+        </nav>
+    </div>
+</div>
 		</header>
+		<div class="wrapper container-fluid">
 
