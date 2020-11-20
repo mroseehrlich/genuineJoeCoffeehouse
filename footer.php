@@ -5,8 +5,8 @@
  * @since HTML5 Reset 2.0
  */
 ?>
-		<footer id="footer" class="source-org vcard copyright" role="contentinfo">
-			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></small>
+		<footer id="footer" class="footer source-org vcard copyright fixed-bottom" role="contentinfo">
+			<p class="footer-copyright__text">&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></p>
 		</footer>
 
 	</div>
