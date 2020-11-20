@@ -143,7 +143,7 @@
 				<a class="navbar-brand d-none" href="#"><?php esc_html_e( bloginfo( 'name' ), 'themeslug' ); ?></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'best-reloaded' ); ?>">
 					<!-- <span class="hamburger navbar-toggler-icon"></span> -->
-					<i class="fas fa-bars"></i>
+					<i class="hamburger fas fa-bars"></i>
 					<span class="sr-only"><?php esc_html_e( 'Toggle Navigation', 'themeslug' ); ?></span>
 				</button>
 				<div class="collapse navbar-collapse" id="headerNav" role="navigation" aria-label="Main Menu">
