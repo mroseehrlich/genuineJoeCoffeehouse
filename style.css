@@ -1,21 +1,42 @@
 /*
  Theme Name:   Dino Friends
  Theme URI:    https://github.com/mroseehrlich/genuineJoeCoffeehouse
- Description:  A child theme, starting from handcrafted-wp-theme-master
+ Description:  A child theme, starting from html5-reset-wordpress-theme
  Author:       Mia Ehrlich
  Author URI:   http://example.com
- Template:     handcrafted-wp-theme-master
+ Template:     HTML5-Reset-WordPress-Theme-master
  Version:      0.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twentyfifteenchild
+ Tags:         
+ Text Domain:  dinofriends
 */
 
-@import url('../handcrafted-wp-theme-master/style.css');
+/* @import url('../HTML5-Reset-WordPress-Theme-master/style.css'); */
 
 /* -------- Theme customization starts here ---------- */
-
 body.home {
-  font-family: 'Times New Roman' !important;
+  background-color: white;
+}
+
+.header-brand {
+  text-align: center;
+}
+
+.nav {
+  width: 100%;
+  justify-content: center;
+  background-color: white;
+}
+
+.nav .nav-item {
+  font-family: 'Permanent Marker';
+}
+
+.nav .nav-link {
+  color: #474563;
+}
+
+.nav .nav-link:hover {
+  color: #c83339;
 }
