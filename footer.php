@@ -32,7 +32,9 @@
   ga('send', 'pageview');
 
 </script>
+
 -->
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
