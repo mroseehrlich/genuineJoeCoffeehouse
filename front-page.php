@@ -10,8 +10,8 @@
 
 <main>
     <div class="jumbotron jumbotron-fluid fade-in">
-        <h1>Genuine Joe Coffeehouse</h1>
-        <p class=lead>Stay kind. Stay genuine.</p>
+        <h1 class="brand-title">Genuine Joe Coffeehouse</h1>
+        <p class="lead brand-subtitle">Stay kind. Stay genuine.</p>
     </div>
 </main>
 
