@@ -68,6 +68,13 @@ body.home {
 
 /* Landing Page Styles */
 
+.jumbotron {
+  min-height: 400px;
+  background: linear-gradient(rgba(71, 69, 99, 0.7), rgba(71, 69, 99, 0.7)),
+    url(http://localhost:8888/wp-content/uploads/2020/11/DinoLogoBannerNoLogoSmall.jpg)
+      no-repeat center center / cover;
+}
+
 .fade-in {
   opacity: 1;
   animation-name: fadeInOpacity;
