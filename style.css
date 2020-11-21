@@ -90,3 +90,7 @@ body.home {
 /* Menu Page Styles */
 
 /* Contact Page Styles */
+.contact-info-link__phone,
+.contact-info-link__email {
+  display: block;
+}
