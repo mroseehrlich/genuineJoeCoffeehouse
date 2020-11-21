@@ -8,6 +8,12 @@
  */
  get_header(); ?>
 
+<main>
+    <div class="jumbotron jumbotron-fluid">
+        <h1>Genuine Joe Coffeehouse</h1>
+        <p class=lead>Stay kind. Stay genuine.</p>
+    </div>
+</main>
 
 
  <?php get_footer() ?>
