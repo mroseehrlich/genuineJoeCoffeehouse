@@ -9,7 +9,7 @@
  get_header(); ?>
 
 <main>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid fade-in">
         <h1>Genuine Joe Coffeehouse</h1>
         <p class=lead>Stay kind. Stay genuine.</p>
     </div>
