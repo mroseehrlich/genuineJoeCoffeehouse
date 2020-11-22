@@ -162,5 +162,5 @@
 			</nav>	
 
 		</header>
-		<div class="wrapper container-fluid">
+		<div class="wrapper container-fluid remove-all-margin-padding">
 
