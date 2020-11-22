@@ -13,6 +13,9 @@
         <h1 class="brand-title">Genuine Joe Coffeehouse</h1>
         <p class="lead brand-subtitle">Stay kind. Stay genuine.</p>
     </div>
+
+    <?php echo do_shortcode("[instagram-feed num=9]"); ?>
+
 </main>
 
 
