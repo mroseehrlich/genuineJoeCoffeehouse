@@ -80,8 +80,8 @@ body.home {
       hsla(244, 18%, 23%, 0.8),
       hsla(244, 18%, 43%, 0.4)
     ),
-    url(http://localhost:8888/wp-content/uploads/2020/11/DinoLogoBannerNoLogoSmall.jpg)
-      no-repeat center center / cover;
+    url(http://localhost:8888/wp-content/uploads/2020/11/DinoLogoBannerNoLogoLarge.jpg)
+      no-repeat center right / cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,6 +112,7 @@ body.home {
 
 .brand-title {
   font-family: 'Permanent Marker';
+  font-size: 2em;
   color: #c83339;
   -webkit-text-stroke: 1px white;
   text-shadow: 8px 8px 15px rgba(255, 255, 255, 0.8);
@@ -131,4 +132,13 @@ body.home {
 .contact-info-link__phone,
 .contact-info-link__email {
   display: block;
+}
+
+/* Media Queries */
+
+/* Media Queries fro Landing Page */
+@media only screen and (min-width: 768px) {
+  .brand-title {
+    font-size: 3em;
+  }
 }
