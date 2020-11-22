@@ -110,18 +110,20 @@ body.home {
   text-transform: uppercase;
 }
 
-.brand-title {
-  font-family: 'Permanent Marker';
+h1.brand-title {
+  font-family: 'Rock Salt';
   font-size: 2em;
-  color: #c83339;
-  -webkit-text-stroke: 1px white;
+  color: rgba(200, 51, 57, 0.7);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
   text-shadow: 8px 8px 15px rgba(255, 255, 255, 0.8);
+  padding-top: 4em;
 }
 
 .jumbotron .brand-subtitle {
-  font-family: sans-serif;
-  color: rgba(255, 255, 255, 0.8);
-  text-shadow: 5px 5px 6px white, 10px 10px 15px #474563;
+  font-family: 'Permanent Marker';
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 3px 3px 12px white, 10px 10px 15px #474563;
+  margin-top: 2em;
 }
 
 /* About Page Styles */
