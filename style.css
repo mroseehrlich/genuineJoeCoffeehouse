@@ -26,6 +26,10 @@ body.home {
   padding: 0 !important;
 }
 
+.wrapper main {
+  padding-bottom: 2em;
+}
+
 .header-brand {
   text-align: center;
 }
@@ -56,9 +60,9 @@ body.home {
 }
 
 .footer {
+  margin-top: 2em;
   background-color: #ccc;
   color: white;
-  font-family: 'Permanent Marker';
   font-size: 0.9em;
   letter-spacing: 2px;
   padding: 0.8em;
@@ -67,8 +71,9 @@ body.home {
   align-items: center;
 }
 
-.footer p {
+.footer .footer-copyright__text {
   margin-bottom: 0;
+  font-family: 'Permanent Marker';
 }
 
 /* Landing Page Styles */
@@ -113,6 +118,7 @@ body.home {
 h1.brand-title {
   font-family: 'Rock Salt';
   font-size: 2em;
+  letter-spacing: 3px;
   color: rgba(200, 51, 57, 0.7);
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
   text-shadow: 8px 8px 15px rgba(255, 255, 255, 0.8);
