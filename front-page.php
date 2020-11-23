@@ -11,7 +11,7 @@
  <article class="covid-info">
      <div class="container">
         <div class="row">
-            <section class="col-md-6">
+            <section class="covid-info__text col-md-6">
                 <h2>Patio Seating Now Open!</h2>
                 <p>
                     We can't wait to reopen fully, but for now, we're open for patio service only. Order coffee at the side door
@@ -20,7 +20,7 @@
                     times. We wouldn't be here without you. We love you, Austin! 
                 </p>
             </section>
-            <section class="hours">
+            <section class="covid-info__hours">
                 <h2>Hours</h2>
                 <p>Monday-Friday 7AM-6PM</p>
                 <p>Saturday & Sunday 7AM - 3PM </p>
