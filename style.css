@@ -21,11 +21,6 @@ body.home {
   background-color: white;
 }
 
-.reduce-width.center-content {
-  width: 85%;
-  margin: 0 auto;
-}
-
 .remove-all-margin-padding {
   margin: 0 !important;
   padding: 0 !important;
@@ -83,13 +78,13 @@ body.home {
 
 /* Landing Page Styles */
 
+.covid-info {
+  background-color: darkgray;
+}
+
 .jumbotron {
   min-height: 400px;
-  background: radial-gradient(
-      ellipse,
-      hsla(244, 18%, 23%, 0.8),
-      hsla(244, 18%, 43%, 0.4)
-    ),
+  background: radial-gradient(ellipse, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
     url(http://localhost:8888/wp-content/uploads/2020/11/DinoLogoBannerNoLogoLarge.jpg)
       no-repeat center right / cover;
   display: flex;
@@ -115,7 +110,7 @@ body.home {
   }
 }
 
-.barnd-title,
+.brand-title,
 .brand-subtitle {
   text-transform: uppercase;
 }
@@ -135,6 +130,10 @@ h1.brand-title {
   color: rgba(255, 255, 255, 0.7);
   text-shadow: 3px 3px 12px white, 10px 10px 15px #474563;
   margin-top: 2em;
+}
+
+.instagram-feed h2 {
+  text-align: center;
 }
 
 /* About Page Styles */
