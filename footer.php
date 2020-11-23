@@ -7,11 +7,13 @@
 ?>
 	</div>
 		<footer id="footer" class="footer source-org vcard copyright fixed-bottom" role="contentinfo">
-			<p class="footer-copyright__text">
+			<div class="footer-copyright__text">
         <span class="footer-copyright__text-brand">&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></span>
-        <span class="footer-copyright__text-design-brand">Help/Trouble Designs</span>
-        <span class="footer-copyright__text-rights">All Rights Reserved</span>
-      </p>
+        <div>
+          <span class="footer-copyright__text-design-brand">Help/Trouble Designs</span>
+          <span class="footer-copyright__text-rights">All Rights Reserved</span>
+        </div>
+      </div>
 		</footer>
 
 
