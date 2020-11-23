@@ -12,7 +12,7 @@
      <div class="container">
         <div class="row">
             <section class="covid-info__text col-md-6">
-                <h2>Patio Seating Now Open!</h2>
+                <h2>Open For Outdoor Seating!</h2>
                 <p>
                     We can't wait to reopen fully, but for now, we're open for patio service only. Order coffee at the side door
                     and grab a seat on our front porch or newly shaded patio. All seating has been spaced to maintain
