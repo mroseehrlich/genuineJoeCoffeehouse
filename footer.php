@@ -7,7 +7,11 @@
 ?>
 	</div>
 		<footer id="footer" class="footer source-org vcard copyright fixed-bottom" role="contentinfo">
-			<p class="footer-copyright__text">&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></p>
+			<p class="footer-copyright__text">
+        <span>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></span>
+        <span>Help/Trouble Designs</span>
+        <span>All Rights Reserved</span>
+      </p>
 		</footer>
 
 
