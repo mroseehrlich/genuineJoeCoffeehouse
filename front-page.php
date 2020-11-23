@@ -10,7 +10,7 @@
 
  <article class="covid-info container">
      <div class="row">
-         <div class="col-md-6">
+         <section class="col-md-6">
              <h2>Patio Seating Now Open!</h2>
              <p>
                 We can't wait to reopen fully, but for now, we're open for patio service only. Order coffee at the side door
@@ -18,12 +18,12 @@
                 social distancing. Masks are required and dogs are welcome. Thank you for all your support through these tough
                 times. We wouldn't be here without you. We love you, Austin! 
              </p>
-         </div>
-         <div class="hours">
+         </section>
+         <section class="hours">
              <h2>Hours</h2>
              <p>Monday-Friday 7AM-6PM</p>
              <p>Saturday & Sunday 7AM - 3PM </p>
-         </div>
+         </section>
      </div>
  </article>
 
