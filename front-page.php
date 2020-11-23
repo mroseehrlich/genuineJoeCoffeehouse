@@ -22,8 +22,8 @@
             </section>
             <section class="covid-info__hours col-md-6">
                 <h2>Hours</h2>
-                <p>Monday-Friday 7AM-6PM</p>
-                <p>Saturday & Sunday 7AM - 3PM </p>
+                <p>Monday - Friday &nbsp;&nbsp;&nbsp; 7AM - 6PM</p>
+                <p>Saturday & Sunday &nbsp;&nbsp;&nbsp; 7AM - 3PM </p>
             </section>
         </div>
      </div>
