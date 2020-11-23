@@ -7,7 +7,7 @@
  * @since HTML5 Reset 2.0
  */
  get_header(); ?>
-<div class="menu-container container-fluid">
+<main class="menu-container container">
     <div class="row">
         <div class="col-md-6">
             <div class="menu_hot-drinks">
@@ -357,5 +357,5 @@
             </div>
         </div>
     </div>
-</div>
+</main>
 <?php get_footer() ?>
