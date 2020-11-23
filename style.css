@@ -21,6 +21,11 @@ body.home {
   background-color: white;
 }
 
+.reduce-width.center-content {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .remove-all-margin-padding {
   margin: 0 !important;
   padding: 0 !important;

@@ -8,7 +8,7 @@
  */
  get_header(); ?>
 
- <article class="covid-info reduce-width center-content">
+ <article class="covid-info container">
      <div class="row">
          <div class="col-md-6">
              <h2>Patio Seating Now Open!</h2>
