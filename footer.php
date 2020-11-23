@@ -8,9 +8,9 @@
 	</div>
 		<footer id="footer" class="footer source-org vcard copyright fixed-bottom" role="contentinfo">
 			<p class="footer-copyright__text">
-        <span>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></span>
-        <span>Help/Trouble Designs</span>
-        <span>All Rights Reserved</span>
+        <span class="footer-copyright__text-brand">&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></span>
+        <span class="footer-copyright__text-design-brand">Help/Trouble Designs</span>
+        <span class="footer-copyright__text-rights">All Rights Reserved</span>
       </p>
 		</footer>
 
