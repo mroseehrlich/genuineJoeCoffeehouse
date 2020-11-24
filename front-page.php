@@ -30,15 +30,31 @@
  </article>
 
 <main>
-    <div class="jumbotron jumbotron-fluid fade-in">
+    <section class="jumbotron jumbotron-fluid fade-in">
         <h1 class="brand-title">Genuine Joe Coffeehouse</h1>
         <p class="lead brand-subtitle">Stay kind. Stay genuine.</p>
-    </div>
+    </section>
     
     <section class="instagram-feed">
         <h2 class="center">Instagram</h2>
         <?php echo do_shortcode("[instagram-feed num=9]"); ?>
     </section>
+
+   <section class="cta-container">
+       <div class="container">
+            <div class="row">
+                <div class="cta-menu col-md-4">
+                <a href="<?php site_url(); ?>/menu">Menu</a>
+                </div>
+                <div class="cta-about col-md-4">
+                <a href="<?php site_url(); ?>/about">About Us</a>
+                </div>
+                <div class="cta-contact col-md-4">
+                <a href="<?php site_url(); ?>/contact">Contact</a>
+                </div>
+            </div>
+       </div>
+   </section>
 
 </main>
 
