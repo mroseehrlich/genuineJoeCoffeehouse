@@ -43,14 +43,14 @@
    <section class="cta-container">
        <div class="container">
             <div class="row">
-                <div class="cta-menu col-md-4">
-                <a href="<?php site_url(); ?>/menu">Menu</a>
+                <div class="cta-menu col-md-3">
+                <a class="cta-container__link" href="<?php site_url(); ?>/menu">Menu</a>
                 </div>
-                <div class="cta-about col-md-4">
-                <a href="<?php site_url(); ?>/about">About Us</a>
+                <div class="cta-about col-md-3">
+                <a class="cta-container__link" href="<?php site_url(); ?>/about">About Us</a>
                 </div>
-                <div class="cta-contact col-md-4">
-                <a href="<?php site_url(); ?>/contact">Contact</a>
+                <div class="cta-contact col-md-3">
+                <a class="cta-container__link" href="<?php site_url(); ?>/contact">Contact</a>
                 </div>
             </div>
        </div>
