@@ -44,13 +44,22 @@
        <div class="container">
             <div class="row">
                 <div class="cta-menu col-md-3">
-                <a class="cta-container__link" href="<?php site_url(); ?>/menu">Menu</a>
+                    <a class="cta-container__link" href="<?php site_url(); ?>/menu">
+                        <h3>Menu</h3>
+                        <p>Check out our drinks menu </p>
+                    </a>
                 </div>
                 <div class="cta-about col-md-3">
-                <a class="cta-container__link" href="<?php site_url(); ?>/about">About Us</a>
+                    <a class="cta-container__link" href="<?php site_url(); ?>/about">
+                        <h3>About Us</h3>
+                        <p>Established 2006 in Austin's Crestview neighborhood</p>
+                    </a>
                 </div>
                 <div class="cta-contact col-md-3">
-                <a class="cta-container__link" href="<?php site_url(); ?>/contact">Contact</a>
+                    <a class="cta-container__link" href="<?php site_url(); ?>/contact">
+                        <h3>Contact</h3>
+                        <p>Questions? Concerns? Let us know</p>
+                    </a>
                 </div>
             </div>
        </div>
