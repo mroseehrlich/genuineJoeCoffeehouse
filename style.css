@@ -166,8 +166,8 @@ h1.brand-title {
 
 .instagram-feed {
   width: 85%;
-  margin: 3em auto;
-  padding: 2em 0;
+  margin: 3em auto 1em;
+  padding: 2em 0 0;
   border-top: 1px solid rgb(102, 102, 102);
 }
 
@@ -196,11 +196,20 @@ h1.brand-title {
 .cta-menu,
 .cta-about,
 .cta-contact {
+  max-width: 60%;
   min-height: 100px;
-  border: 1px solid white;
-  border-radius: 5px;
-  margin: 0 1em 0 auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  margin: 1em auto;
+  padding: 2em 3em;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.5);
+}
+
+.cta-menu:active,
+.cta-about:active,
+.cta-contact:active {
+  box-shadow: 6px 6px 10px rgb(0, 0, 0, 0.5);
 }
 
 .cta-container__link {
@@ -208,6 +217,17 @@ h1.brand-title {
   color: white;
   text-decoration: none;
   text-align: center;
+}
+
+.cta-container__link:hover,
+.cta-container__link:active {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.cta-container__link:hover {
+  transform: scale(1.02);
+  transition: transform 0.1s;
 }
 
 /* About Page Styles */
@@ -226,11 +246,6 @@ h1.brand-title {
 @media only screen and (min-width: 768px) {
   /* Base Page Styles */
 
-  /* Landing Page */
-  /* .brand-title {
-    font-size: 3em;
-  } */
-
   .covid-info section {
     min-width: 50%;
   }
@@ -240,5 +255,11 @@ h1.brand-title {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+  }
+
+  .cta-menu,
+  .cta-about,
+  .cta-contact {
+    margin: 0 1em 0 auto;
   }
 }
