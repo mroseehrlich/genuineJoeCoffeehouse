@@ -53,7 +53,7 @@
                 <div class="cta-about col-md-3">
                     <a class="cta-container__link" href="<?php site_url(); ?>/about">
                         <h3>About Us</h3>
-                        <p>Established 2006 in Austin's Crestview neighborhood</p>
+                        <p>Established 2006 in Austin, TX</p>
                         <p><i class="fas fa-long-arrow-alt-right"></i></p>
                     </a>
                 </div>
