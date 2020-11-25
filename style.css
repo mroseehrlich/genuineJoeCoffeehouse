@@ -105,7 +105,7 @@ h6 {
 /* Landing Page Styles */
 
 .covid-info {
-  background-color: hsl(0, 0%, 40%);
+  background-color: rgb(102, 102, 102);
   color: white;
   padding: 3em 3em 1.5em;
 }
@@ -164,7 +164,49 @@ h1.brand-title {
   margin-top: 2em;
 }
 
+.instagram-feed {
+  width: 85%;
+  margin: 3em auto;
+  padding: 2em 0;
+  border-top: 1px solid rgb(102, 102, 102);
+}
+
 .instagram-feed h2 {
+  text-align: center;
+}
+
+#sb_instagram #sbi_load .sbi_load_btn,
+#sb_instagram #sbi_load .sbi_follow_btn a {
+  border-radius: 25px;
+}
+
+#sb_instagram #sbi_load .sbi_follow_btn a {
+  background-color: rgb(200, 51, 57);
+}
+
+.cta-container {
+  width: 100%;
+  min-height: 600px;
+  background: url(http://localhost:8888/wp-content/uploads/2020/11/IMG_1830.jpg)
+    no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+}
+
+.cta-menu,
+.cta-about,
+.cta-contact {
+  min-height: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0 1em 0 auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cta-container__link {
+  display: block;
+  color: white;
+  text-decoration: none;
   text-align: center;
 }
 
