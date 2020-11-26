@@ -166,20 +166,57 @@ h1.brand-title {
 
 .instagram-feed,
 .contact {
-  width: 85%;
-  margin: 3em auto 1em;
-  padding: 2em 0 0;
-  border-top: 1px solid rgb(102, 102, 102);
+  margin: 3em auto 0;
+  padding: 1em 0 0;
+}
+
+.instagram-feed-container,
+.contact-container {
+  background-color: rgb(102, 102, 102);
+  padding: 2em 0 2em;
 }
 
 .instagram-feed h2,
 .contact h2 {
+  width: 85%;
+  border-top: 1px solid rgb(102, 102, 102);
   text-align: center;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+.sbi_header_text {
+  color: white;
+  transition: color 0.9s;
+}
+
+.sbi_header_text:hover,
+.sbi_header_text:active {
+  color: rgb(200, 51, 57);
+  transition: color 0.5s;
+}
+
+.sbi_header_text h3 {
+  font-family: 'Special Elite';
 }
 
 #sb_instagram #sbi_load .sbi_load_btn,
 #sb_instagram #sbi_load .sbi_follow_btn a {
+  margin-top: 1.5em;
   border-radius: 25px;
+  box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.5);
+}
+
+#sb_instagram #sbi_load .sbi_load_btn:hover,
+#sb_instagram #sbi_load .sbi_load_btn:active,
+#sb_instagram #sbi_load .sbi_follow_btn a:hover,
+#sb_instagram #sbi_load .sbi_follow_btn a:active {
+  border: 1px solid white;
+}
+
+#sb_instagram #sbi_load .sbi_load_btn:active,
+#sb_instagram #sbi_load .sbi_follow_btn a:active {
+  box-shadow: 6px 6px 10px rgba(20, 19, 19, 0.5);
 }
 
 #sb_instagram #sbi_load .sbi_follow_btn a {
@@ -193,6 +230,7 @@ h1.brand-title {
     no-repeat center center / cover;
   display: flex;
   align-items: center;
+  margin-top: 0;
 }
 
 .cta-menu,
@@ -200,7 +238,7 @@ h1.brand-title {
 .cta-contact {
   max-width: 60%;
   min-height: 100px;
-  /* margin: 1em auto; */
+  margin: 1em auto;
   padding: 2em 3em;
   border: 2px solid white;
   border-radius: 10px;
@@ -234,6 +272,10 @@ h1.brand-title {
 .cta-container__link:hover {
   transform: scale(1.02);
   transition: transform 0.1s;
+}
+
+.contact-map {
+  border: 1px solid #ccc;
 }
 
 /* About Page Styles */
