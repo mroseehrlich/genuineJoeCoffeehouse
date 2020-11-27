@@ -274,8 +274,30 @@ h1.brand-title {
   transition: transform 0.1s;
 }
 
-.contact-map {
-  border: 1px solid #ccc;
+.contact-container {
+  color: white;
+}
+
+.contact-map__iframe {
+  outline: 2px solid #ccc;
+  width: 100%;
+}
+
+.contact-container__info {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.contact-container__info a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.contact-container__info a:hover,
+.contact-container__info a:active {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
 }
 
 /* About Page Styles */
