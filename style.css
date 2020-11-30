@@ -209,6 +209,10 @@ h1.brand-title {
   box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.5);
 }
 
+#sb_instagram #sbi_load .sbi_load_btn:hover {
+  box-shadow: 8px 8px 10px rgb(0, 0, 0, 0.5);
+}
+
 #sb_instagram #sbi_load .sbi_load_btn:hover,
 #sb_instagram #sbi_load .sbi_load_btn:active,
 #sb_instagram #sbi_load .sbi_follow_btn a:hover,
@@ -281,12 +285,13 @@ h1.brand-title {
   color: white;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: space-between;
 }
 
 .contact-container__map {
-  min-width: 80%;
+  flex-basis: 80%;
+  margin: 0 auto;
 }
 
 .contact-map__iframe {
@@ -294,8 +299,13 @@ h1.brand-title {
   width: 100%;
 }
 
-.contact-container__contact-info {
+.contact-container__contact {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-container__contact-info {
   flex: 1 0 50%;
 }
 
@@ -304,14 +314,13 @@ h1.brand-title {
   text-decoration: none;
 }
 
-.contact-container__info a:hover,
-.contact-container__info a:active {
+.contact-container__contact-info a:hover,
+.contact-container__contact-info a:active {
   color: rgb(170, 170, 170);
   text-decoration: none;
 }
 
 .contact-container__hours {
-  width: 100%;
   flex: 1 0 50%;
 }
 
