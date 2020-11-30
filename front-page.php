@@ -75,35 +75,32 @@
 
    <section class="contact">
        <h2>Visit Us</h2>
-       <div class="contact-container">
-            <div class="row">
-                <div class="contact-container__map col-md-5">
-                    <iframe class="contact-map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.891976856561!2d-97.7295214847857!3d30.35401978177081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbb11d2292a5%3A0x25bb3fa206d43524!2s2001%20W%20Anderson%20Ln%2C%20Austin%2C%20TX%2078757!5e0!3m2!1sen!2sus!4v1605980819315!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>  
-                </div>
-                <div class="contact-container__info col-md-6">
-                    <div>
-                        <h4>Genuine Joe Coffeehouse</h4>
-                        <address>
-                            <p>2001 W Anderson Ln</p>
-                            <p>Austin, TX &nbsp; 78757</p>
-                        </address>
-                        <p>
-                            <a href="mailto:info@genuinejoecoffee.com">
-                                info@genuinejoecoffee.com
-                            </a>
-                        </p>
-                        <p>
-                            <a href="tel:+15122025156">(512) 202-1576</a>
-                        </p>
-                    </div>
-                    <div>
-                        <h4>Hours</h4>
-                        <p>Monday - Friday &nbsp;&nbsp;&nbsp; 7AM - 6PM</p>
-                        <p>Saturday & Sunday &nbsp;&nbsp;&nbsp; 7AM - 3PM </p>
-                    </div>
-                </div>
+
+        <div class="contact-container container-fluid">
+            <div class="contact-container__map">
+                <iframe class="contact-map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.891976856561!2d-97.7295214847857!3d30.35401978177081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbb11d2292a5%3A0x25bb3fa206d43524!2s2001%20W%20Anderson%20Ln%2C%20Austin%2C%20TX%2078757!5e0!3m2!1sen!2sus!4v1605980819315!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>  
             </div>
-       </div>
+            <div class="contact-container__contact-info">
+                <h4>Genuine Joe Coffeehouse</h4>
+                <address>
+                    <p>2001 W Anderson Ln</p>
+                    <p>Austin, TX &nbsp; 78757</p>
+                </address>
+                <p>
+                    <a href="mailto:info@genuinejoecoffee.com">
+                        info@genuinejoecoffee.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+15122025156">(512) 202-1576</a>
+                </p>
+            </div>
+            <div class="contact-container__hours">
+                <h4>Hours</h4>
+                <p>Monday - Friday &nbsp;&nbsp;&nbsp; 7AM - 6PM</p>
+                <p>Saturday & Sunday &nbsp;&nbsp;&nbsp; 7AM - 3PM </p>
+            </div>
+        </div> 
    </section>
 
 </main>
