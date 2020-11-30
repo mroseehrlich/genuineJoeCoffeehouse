@@ -17,6 +17,7 @@
 /* -------- Theme customization starts here ---------- */
 
 /* Basic Page Styles */
+
 body.home {
   background-color: white;
 }
@@ -69,6 +70,7 @@ h6 {
 }
 
 .footer {
+  width: 100%;
   margin-top: 2em;
   background-color: #ccc;
   color: white;
@@ -275,7 +277,16 @@ h1.brand-title {
 }
 
 .contact-container {
+  min-height: 90vh;
   color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.contact-container__map {
+  min-width: 80%;
 }
 
 .contact-map__iframe {
@@ -283,13 +294,12 @@ h1.brand-title {
   width: 100%;
 }
 
-.contact-container__info {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+.contact-container__contact-info {
+  width: 100%;
+  flex: 1 0 50%;
 }
 
-.contact-container__info a {
+.contact-container__contact-info a {
   color: #ccc;
   text-decoration: none;
 }
@@ -298,6 +308,11 @@ h1.brand-title {
 .contact-container__info a:active {
   color: rgb(170, 170, 170);
   text-decoration: none;
+}
+
+.contact-container__hours {
+  width: 100%;
+  flex: 1 0 50%;
 }
 
 /* About Page Styles */
