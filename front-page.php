@@ -82,8 +82,7 @@
             </div>
             <div class="contact-container__contact">
             <div class="contact-container__contact-info">
-                <h3>Genuine Joe</h3>
-                <h3>Coffeehouse</h3>
+                <h3>Genuine Joe Coffeehouse</h3>
                 <address>
                     <p>2001 W Anderson Ln</p>
                     <p>Austin, TX &nbsp; 78757</p>
