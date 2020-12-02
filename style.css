@@ -28,7 +28,7 @@ body.home {
 }
 
 .wrapper main {
-  padding-bottom: 5em;
+  padding-bottom: 3em;
 }
 
 .header-brand {
@@ -236,7 +236,7 @@ h1.brand-title {
     no-repeat center center / cover;
   display: flex;
   align-items: center;
-  margin-top: 0;
+  padding: 2em 0;
 }
 
 .cta-menu,
@@ -253,7 +253,7 @@ h1.brand-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .cta-menu:active,
@@ -281,16 +281,16 @@ h1.brand-title {
 }
 
 .contact-container {
-  min-height: 90vh;
+  padding: 3em 0 2em;
   color: white;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
-  align-items: space-between;
+  align-items: center;
 }
 
 .contact-container__map {
-  flex-basis: 80%;
+  flex: 0 0 350px;
   margin: 0 auto;
 }
 
@@ -301,12 +301,14 @@ h1.brand-title {
 
 .contact-container__contact {
   width: 100%;
+  flex: 0 0 50%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .contact-container__contact-info {
-  flex: 1 0 50%;
+  flex: 0 0 50%;
 }
 
 .contact-container__contact-info a {
@@ -320,8 +322,8 @@ h1.brand-title {
   text-decoration: none;
 }
 
-.contact-container__hours {
-  flex: 1 0 50%;
+.contact-container__contact-hours {
+  flex: 0 0 50%;
 }
 
 /* About Page Styles */
@@ -355,5 +357,10 @@ h1.brand-title {
   .cta-about,
   .cta-contact {
     margin: 0 1em 0 auto;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
