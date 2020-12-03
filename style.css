@@ -331,9 +331,41 @@ h1.brand-title {
 /* Menu Page Styles */
 
 /* Contact Page Styles */
-.contact-info-link__phone,
-.contact-info-link__email {
-  display: block;
+
+.contact-info,
+.contact-address,
+.contact-social {
+  height: 20em;
+  width: 100%;
+}
+
+.contact-info__heading,
+.contact-address__info,
+.contact-social__heading,
+.contact-info__links,
+.contact-address__map,
+.contact-social__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info__links,
+.contact-address__map,
+.contact-social__links {
+  height: 15em;
+  width: 100%;
+  background-color: #474563;
+}
+
+.contact-info__links-phone,
+.contact-info__links-email {
+  align-self: flex-start;
+  margin-left: 1em;
+}
+.contact-address__map {
+  width: 100%;
 }
 
 /* Media Queries */
