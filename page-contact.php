@@ -10,16 +10,16 @@
 
 <div class="contact-info">
     <div class="row">
-        <div class="col-sm-6">
+        <div class="contact-info__heading col-sm-6">
             <h2>Contact</h2>
         </div>
             
         <div class="contact-info__links col-sm-6">
-            <a class="contact-info-links__phone">
+            <a class="contact-info__links-phone">
                 <span class="contact-phone__icon"><i class="fas fa-phone-square-alt"></i></span>
                 <span class="contact-phone__num">(512)202-1576</span>
             </a>
-            <a class="contact-info-links__email">
+            <a class="contact-info__links-email">
                 <span class="contact-email__icon"><i class="far fa-paper-plane"></i></span>
                 <span class="contact-email__address">info@genuinejoecoffee.com</span>
             </a>
@@ -47,7 +47,7 @@
 
 <div class="contact-social">
     <div class="row">
-        <div class="col-sm-6">
+        <div class="contact-social__heading col-sm-6">
             <h2>Social</h2>
             <p>Follow us on social media and see what we're up to</p>
         </div>
