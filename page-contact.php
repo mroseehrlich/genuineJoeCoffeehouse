@@ -53,7 +53,7 @@
         </div>
         <div class="contact-social__links col-sm-6">
             <div class="contact-social__icons">
-                <i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f fa-2x"></i><i class="fab fa-instagram fa-2x"></i>
             </div>
         </div>
     </div>
