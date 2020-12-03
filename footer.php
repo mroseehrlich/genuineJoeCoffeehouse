@@ -5,7 +5,8 @@
  * @since HTML5 Reset 2.0
  */
 ?>
-	</div>
+  </div>
+  
 		<footer id="footer" class="footer source-org vcard copyright fixed-bottom" role="contentinfo">
 			<div class="footer-copyright__text">
         <span class="footer-copyright__text-brand">&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></span>
